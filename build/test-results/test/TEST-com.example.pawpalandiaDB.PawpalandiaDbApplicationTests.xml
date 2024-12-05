@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pawpalandiaDB.PawpalandiaDbApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-05T04:29:10" hostname="PRO15" time="0.671">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.pawpalandiaDB.PawpalandiaDbApplicationTests" time="0.671"/>
+  <system-out><![CDATA[22:29:04.858 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.pawpalandiaDB.PawpalandiaDbApplicationTests]: PawpalandiaDbApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:29:04.989 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.pawpalandiaDB.PawpalandiaDbApplication for test class com.example.pawpalandiaDB.PawpalandiaDbApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-04T22:29:05.428-06:00  INFO 24784 --- [    Test worker] c.e.p.PawpalandiaDbApplicationTests      : Starting PawpalandiaDbApplicationTests using Java 17.0.9 with PID 24784 (started by raraz in C:\Users\raraz\OneDrive\Escritorio\Deploy\pawpalandiaDB)
+2024-12-04T22:29:05.429-06:00  INFO 24784 --- [    Test worker] c.e.p.PawpalandiaDbApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T22:29:05.973-06:00  INFO 24784 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T22:29:06.051-06:00  INFO 24784 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2024-12-04T22:29:06.561-06:00  INFO 24784 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T22:29:06.616-06:00  INFO 24784 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-04T22:29:06.646-06:00  INFO 24784 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T22:29:06.953-06:00  INFO 24784 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T22:29:06.987-06:00  INFO 24784 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-04T22:29:07.287-06:00  INFO 24784 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bc2e022
+2024-12-04T22:29:07.291-06:00  INFO 24784 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-04T22:29:07.373-06:00  INFO 24784 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T22:29:08.226-06:00  INFO 24784 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T22:29:08.271-06:00  INFO 24784 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T22:29:08.713-06:00  INFO 24784 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-04T22:29:09.480-06:00  WARN 24784 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T22:29:09.528-06:00  INFO 24784 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-12-04T22:29:10.182-06:00  INFO 24784 --- [    Test worker] c.e.p.PawpalandiaDbApplicationTests      : Started PawpalandiaDbApplicationTests in 5.028 seconds (process running for 6.831)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
